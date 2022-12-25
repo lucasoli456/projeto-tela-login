@@ -11,7 +11,7 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px*/
 
 @media screen and (min-width: 768px) and (max-width:992px) {
-    body{
+    body{   /*Configuração para Tablet*/
         background-image: url(../imagens/tela-login-tablet.jpg);
         height: 100vh;
         background-position: left center;
@@ -20,6 +20,7 @@ Grandes telas: acima de 1200px*/
     }
     section#login {
         width: 80%;
+        height: 350px;
     }
     section#login > div#imagem {
         float: left;
@@ -31,10 +32,13 @@ Grandes telas: acima de 1200px*/
         float: right;
         width: 40%;
     }
+    div#formulario > h1 {
+        padding-top: 18px;
+    }
 }
 
 @media screen and (min-width: 992px) {
-    body{
+    body{ /*Configuração para Desktop e telas maiores*/
         background-image: url(../imagens/tela-login-desktop.jpg);
         height: 100vh;
         background-position:left top;
@@ -56,6 +60,7 @@ Grandes telas: acima de 1200px*/
     }
     div#formulario > h1 {
         font-size: 2em;
+        padding-top: 60px;
     }
     div#formulario > p {
         font-size: 1.2em;
