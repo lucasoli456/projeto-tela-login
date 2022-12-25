@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/*Todas as demais mídias*/
+
+/*Typical Device Breakpoints
+----------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px*/
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    body{
+        background-image: url(../imagens/tela-login-tablet.jpg);
+        height: 100vh;
+        background-position: left center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    section#login {
+        width: 80%;
+    }
+    section#login > div#imagem {
+        float: left;
+        width: 60%;
+        height: 100%;
+        background-size: contain;
+    }
+    section#login > div#formulario {
+        float: right;
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-image: url(../imagens/tela-login-desktop.jpg);
+        height: 100vh;
+        background-position:left top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    section#login {
+        width: 800px;
+    }
+    section#login > div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+        background-size: contain;
+    }
+    section#login > div#formulario {
+        float: left;
+        width: 50%;
+    }
+}
