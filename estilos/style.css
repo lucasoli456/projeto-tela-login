@@ -15,7 +15,7 @@
 body, html{
     background-image: url(../imagens/tela-login-teste2.jpg);
     height: 100vh;
-    background-position: left top;
+    background-position: left center;
     background-repeat: no-repeat;
     background-size: cover;
 }
