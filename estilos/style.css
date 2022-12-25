@@ -12,7 +12,7 @@
     margin: 0px;
     box-sizing: border-box;
 }
-body, html{
+body{
     background-image: url(../imagens/tela-login3.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -20,6 +20,4 @@ body, html{
     display: flex;
     flex-direction: column;
     position: relative;
-
-
 }
