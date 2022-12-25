@@ -35,6 +35,17 @@ Grandes telas: acima de 1200px*/
     div#formulario > h1 {
         padding-top: 18px;
     }
+    div.campo > input {
+        background-color: #3443b6;
+        font-size: 1em;
+        width: calc(100% - 44.8px);
+        height: 100%;
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
+        transform: translateY(-12px);
+        /*Sempre que houver um translate no código colocar no final pois ajuda a não ter bug de compatibilidade com dispositivos*/
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -64,5 +75,16 @@ Grandes telas: acima de 1200px*/
     }
     div#formulario > p {
         font-size: 1.2em;
+    }
+    div.campo > input {
+        background-color: #3443b6;
+        font-size: 1em;
+        width: calc(100% - 44.8px);
+        height: 100%;
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
+        transform: translateY(-12px);
+        /*Sempre que houver um translate no código colocar no final pois ajuda a não ter bug de compatibilidade com dispositivos*/
     }
 }
